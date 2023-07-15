@@ -1,0 +1,18 @@
+.color-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: fit-content;
+  height: max-content;
+}  
+.coin {
+  cursor: pointer;
+}
+.coins:hover, .selected {
+  background-color: #aba5fc99;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.selected {
+  border: 1px solid #aba5fc;
+}
+  

@@ -1,0 +1,7 @@
+$colors: ("light-blue":#A3D1FF,"green": #AFF3D8,"turquoise": #B0F2EC,"blue": #A9B1FA,"purple": #E9BAE7,"pink": #F7ABD9,"yellow": #FDE5A6,"orange": #FBCFA7,"red": #F7ABAB);
+
+@each $name,$color in $colors {
+    .#{$name} {
+      --color: #{$color};
+    }
+  }

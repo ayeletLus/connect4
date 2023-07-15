@@ -1,0 +1,19 @@
+.closing-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 500px;
+    height: 30%;
+    background: #fdffee;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    place-items: center;
+}
+
+.winner {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
